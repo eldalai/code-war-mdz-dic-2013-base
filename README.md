@@ -23,7 +23,9 @@ Si no posee un IDE de desarrollo, puede descargar eclipse
 
 2) descargar proyecto base
 via git:
+<pre><code>
 git clone https://github.com/eldalai/code-war-mdz-dic-2013-base.git
+</code></pre>
 
 via zip: 
 https://github.com/eldalai/code-war-mdz-dic-2013-base/archive/master.zip
@@ -32,7 +34,9 @@ https://github.com/eldalai/code-war-mdz-dic-2013-base/archive/master.zip
 3) configurar proyecto en IDE
 
 Para configurar eclipse correr por linea de commando en la carpeta donde haya descargado el proyecto
+<pre><code>
 mvn eclipse:clean eclipse:eclipse
+</code></pre>
 
 En el eclipse, importar el maven project
 
@@ -110,11 +114,19 @@ LOS TEST FALLARAN
 desarrollar la logica necesaria en 
 code-war-mdz-dic-2013-base\src\main\java\com\globallogic\codewar\Diamonds.java
 
+<pre>
+<code>
+mvn test
+</code>
+</pre>
+
 correr los test hasta que pasen!
 
-6) versionar 
+6) entrega del problema resuelto 
 
-Crear un repositorio SVN o GIT publico ( https://code.google.com/  o https://github.com/ )
+Crear un repositorio SVN o GIT publico ( por ejemplo https://code.google.com/  o https://github.com/ )
+
+Subir el código al repositorio SVN o Git
 
 Enviar por mail la dirección del repositorio a fin de aprobar la admisión
 
