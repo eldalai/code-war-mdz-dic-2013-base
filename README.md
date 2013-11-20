@@ -39,6 +39,7 @@ En el eclipse, importar el maven project
 4) Correr test
 desde linea de commando:
 
+<pre>
 <code>
 mvn test
 
@@ -98,6 +99,7 @@ Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 </code>
+</pre>
 desde eclipse:
 
 Sobre el proyecto, "Run as"-> "JUnit Test"
